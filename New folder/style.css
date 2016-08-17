@@ -1,0 +1,384 @@
+
+
+div.basic{
+	position:absolute;
+	left:0;
+	right:0;
+	height:90px;
+	background-color:lightblue;
+}
+
+ul.lef{
+	list-style-type:none;
+	margin:0;
+	padding:10px;
+	float:left;
+}
+
+ul.rig{
+	list-style-type:none;
+	margin:0;
+	padding:10px;
+	float:right;
+	
+}
+
+li.one{
+	display:inline-block;
+	
+}
+li.two{
+	display:inline;
+	display:image;
+	}
+
+
+li a{
+	display:block;
+	color:blue;
+	padding:10px;
+	text-decoration:none;
+	
+	
+}
+li img{
+	
+	color:blue;
+	padding:10px;
+	text-decoration:none;
+	
+	
+	}
+li a:hover{
+	background-color:#000;
+	
+	}
+
+li img:hover{
+	background-color:#000;
+	
+	}
+
+div.second{
+	position:absolute;
+	left:0;
+	right:0;
+	top:100px;
+	height:100px;
+	background-color:#fff;
+
+	}
+h1{
+	color:lightblue;
+	position:absolute;
+	left:40px;
+	
+}
+
+div.third{
+	position:absolute;
+	background-image: url("img_tree.png");
+	left:0;
+	right:0;
+	top:200px;
+	height:50px;
+	background-color:lightgrey;
+	border-bottom: solid;
+}
+
+div.four{
+	
+	position:absolute;
+	left:0;
+	right:0;
+	top:250px;
+	height:200px;
+	background-color:#fff;
+	
+}
+
+h3{
+	color:#000;
+	text-align:center;
+	font-family:Arial;
+	font-size:20;
+}
+
+div.five{
+	position:absolute;
+	left:0;
+	right:0;
+	top:450px;
+	height:200px;
+	background-color:#fff;
+	
+}
+
+div.f1  img {
+	height : 50px;
+	width : 50px;
+	float : left;
+}
+div.f1{
+	position :absolute;
+	width : 400px;
+	float:right;
+	padding:0 40px;
+	
+}
+div.f1 p {
+	position : absolute;
+	left : 100px;
+}
+div.f2  img {
+	height : 50px;
+	width : 50px;
+	float : left;
+}
+div.f1 p {
+	position : absolute;
+	left : 100px;
+}
+div.f2{
+	position :absolute;
+	left : 550px;
+	width : 400px;
+	float:right;
+	padding:0 40px;
+	
+}
+
+ div.six{
+        background-color:white;
+		position : absolute;
+		top : 650px;
+		left : 0px;
+		right : 0px;
+        height:500px;
+		
+    }
+	div.s1{
+	position : relative;
+	top:0px;
+	height : 150px;
+	}
+  div.s1 h3,h6{
+	text-align : center;
+  }
+  
+  .s1 img{
+	position : relative;
+	top : 30px;
+	left : 350px;
+	height : 50px;
+	width : 50px;
+  }
+  
+  div.s2{
+	position : absolute;
+	width : 450px;
+	margin-left : 20px;
+   }
+   
+   div.s21 {
+	position : relative;
+	height : 100px;
+	width : 300px;
+	}
+   .s21 img {
+	float : left;
+	height : 50px;
+	width : 50px;
+   
+   }
+   div.s22 {
+	position : relative;
+	height : 100px;
+	width : 300px;
+	
+   }
+   .s22 img {
+	float : left;
+	height : 50px;
+	width : 50px;
+	}
+	
+	div.s23 {
+	position : relative;
+	height : 100px;
+	width : 300px;
+	
+   }
+   
+   .s23 img {
+	float : left;
+	height : 50px;
+	width : 50px;
+	}
+   
+   div.s3{
+	position : absolute;
+	left : 550px;
+	width : 450px;
+	height : 600px;
+	
+   }
+  
+   
+   div.s31 {
+	position : relative;
+	height : 100px;
+	width : 300px;
+	
+   }
+    .s31 img {
+	float : left;
+	height : 50px;
+	width : 50px;
+	}
+   div.s32 {
+	position : relative;
+	height : 100px;
+	width : 300px;
+	
+   }
+   
+    .s32 img {
+	float : left;
+	height : 50px;
+	width : 50px;
+	}
+   
+   div.s33 {
+	position : relative;
+	height : 100px;
+	width : 300px;
+	
+   }
+    .s33 img {
+	float : left;
+	height : 50px;
+	width : 50px;
+	}
+   
+
+ div.seven{
+        background-color:white;
+		position : absolute;
+		top : 500px;
+		left : 0px;
+		right : 0px;
+        height:410px;
+		border : 1px solid #000;
+    }
+	
+	.img1 img{
+		position: absolute;
+		left : 35%;
+		border-radius : 40%;
+	}
+	
+	.sv {
+		position: absolute;
+		left : 45%;
+		}
+	
+	div.sv1 {
+	position : absolute;
+	top : 130px;
+	left : 60px;
+	margin : 10px;
+	width: 15%;
+	background-color: grey;
+	
+}
+
+div.sv1 img{
+	width :70%;
+	margin : 25px;
+	border-radius : 50%;
+}
+div.sv11 {
+  text-align: center;
+  }
+  
+  	
+	div.sv2 {
+	position : absolute;
+	top : 130px;
+	left : 260px;
+	margin : 10px;
+	width: 15%;
+	background-color: grey;
+	
+}
+
+div.sv2 img{
+	width :70%;
+	margin : 25px;
+	border-radius : 50%;
+}
+div.sv21 {
+  text-align: center;
+  }
+
+ div.sv3 {
+	position : absolute;
+	top : 130px;
+	left : 460px;
+	margin : 10px;
+	width: 15%;
+	background-color: grey;
+	
+}
+
+div.sv3 img{
+	width :70%;
+	margin : 25px;
+	border-radius : 50%;
+}
+div.sv31 {
+  text-align: center;
+  }
+  
+  div.sv4 {
+	position : absolute;
+	top : 130px;
+	left : 660px;
+	margin : 10px;
+	width: 15%;
+	background-color: grey;
+	
+}
+
+div.sv4 img{
+	width :70%;
+	margin : 25px;
+	border-radius : 50%;
+}
+div.sv41 {
+  text-align: center;
+  }
+  
+  div.eight{
+ 
+		position : absolute;
+		top : 910px;
+		left : 0px;
+		right : 0px;
+        height:200px;
+    }
+	
+.eight img{
+	width : 100%;
+	height : 200px;
+}
+
+div.nine {
+		position : absolute;
+		top : 1110px;
+		left : 0px;
+		right : 0px;
+        height:100px;
+		background-color : #000;
+}
