@@ -1,0 +1,84 @@
+-installation of node.
+-open node cmd.
+
+
+/*V8 :  open source, javascript browser engine. 
+		used in chrome
+		also used for node.js,MongoDB, for server-side scripting
+		and by .net for client side scripting.
+		compiles js into machine codes before executing it.*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+****npm****
+
+-node comes with the npm installed.
+-npm -v : check version.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grunt.js
+	-task,plugins
+	-minified code
+	-concatnate files.
+	
+	
+	
+	grunt-cli:type commands
+	grunt : load packages.
+	
+	1.create folder
+	2.create packg.json : npm init
+	3.install grunt : sudo npm install -g grunt -cli
+	4.npm install grunt --save-dev
+	5.npm install grunt-contrib --save-dev.
+	
+	
+	5.install cssmin plugin. npm install grunt-contrib-cssmin -g --save-dev.
+	
+	5.To run : grunt cssmin.
+	
+	 'src/css/output.css':['src/css/module1.css','src/css/module2.css']
+	 
+	 watch
+	 jshint
+	 uglify.
+	 
+	 bower  : only for front end dependencies. 
+	 bowar search
+	 install
+	 install packg, version
+	 bower init
+	 bower.json
+	 bower -help --help
+	 modernizr
+	 
+	 
+	 ex : install underscore with ^.
+	 
+	 nodejs inspector.
+	 debugger
+	 
