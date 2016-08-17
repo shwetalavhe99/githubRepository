@@ -1,0 +1,431 @@
+body{
+
+	text-align : center;
+	
+}
+div.wrapper{
+	width : 960px;
+	margin : 0 auto;
+	
+}
+
+.main{
+	height:100px;
+	background-color:#ebebe0;
+	}
+	
+.main1 h1{
+	position : absolute;
+	margin-top : 30px;
+	margin-left : 150px;
+	font-family : Comic Sans MS;
+	color:#ff471a;
+	font-style : Bold;
+}
+
+.main3 h5{
+	position : absolute;
+	margin-top : 70px;
+	margin-left : 150px;
+	font-family : Comic Sans MS;
+	color:#000;
+	
+}
+
+.main2{
+	position : absolute;
+	font-size : 12px;
+	margin-top : 70px;
+	margin-right : 150px;
+	
+}
+
+div.second{
+	position : relative;
+	top : 0px;
+	height : 300px;
+	
+}
+
+div.second img{
+	height : 300px;
+	width : 100%;
+}
+
+div.one p{
+	position : absolute;
+	top : 30px;
+	left : 150px;
+	width : 150px;
+	height : 25px;
+	margin : 5px;
+	background-color : #000;
+	font-size : 14px;
+	border-radius : 7px 0 7px 0;
+	color : #fff;
+	text-align : center;
+}
+
+div.secnd p{
+	position : absolute;
+	top : 60px;
+	left : 150px;
+	width : 300px;
+	height : 100px;
+	margin : 5px;
+	padding : 5px;
+	background-color : #ccccb3;
+	font-size : 14px;
+	border-radius : 7px;
+	text-align : left;
+	word-break : break-all;
+}
+
+div.three button{
+	position : absolute;
+	top : 180px;
+	left : 150px;
+	width : 110px;
+	height : 30px;
+	margin : 5px;
+	background-color : #ff471a;
+	border-radius : 7px;
+	color : #fff;
+	font-size : 14px;
+	text-align : justify-all;
+}
+
+div.third{
+	position : relative;
+	top : 0px;
+	height : 60px;
+	background-color : #ff704d;
+}
+
+div.third p{
+	position : absolute;
+	left : 250px;
+	color : #fff;
+}
+
+div.third input{
+	position : absolute;
+	top : 10px;
+	right : 200px;
+	width : 100px;
+	height : 20px;
+	color : #000;
+	font-size : 12px;
+	border-radius : 3px;
+	
+ }
+ 
+ div.third button{
+	position : absolute;
+	top : 10px;
+	right : 110px;
+	width : 80px;
+	height : 25px;
+	background-color : #000;
+	border-radius : 7px;
+	color : #fff;
+	font-size : 14px;
+	text-align : justify-all;
+	padding-right : 20px;
+ }
+
+ div.fourth{
+	position : relative;
+	top : 0px;
+	height : 220px;
+	display : flex;
+	background-color:#ebebe0;
+ }
+ 
+ div.fourth img{
+	float : left;
+	margin : 10px;
+	width : 50px;
+	height : 50px;
+	
+ }
+ div.fourth p {
+	
+	float : right;
+	margin : 10px;
+	font-size : 14px;
+	font-family : arial;
+	text-align : justify;
+	
+   overflow: hidden;
+   
+	text-overflow : ellipsis;
+	
+ }
+ 
+div.f1 p {
+	
+	word-break : keep-all;
+ 
+ }
+ 
+div.f1{
+		position :absolute;
+		left :250px;
+		top :	20px;
+		height : 150px;
+		width : 200px;
+	 }
+	 
+div.f2{
+		position :absolute;
+		left :450px;
+		top :	20px;
+		height : 150px;
+		width : 200px;
+	 }
+
+div.f2 p {
+	
+	word-break : break-all;
+	overflow : hidden;
+	text-overflow : ellipsis;
+ }
+ 
+ 
+	 
+div.f3{
+		position :absolute;
+		left :650px;
+		top :	20px;
+		height : 150px;
+		width : 200px;
+	 }
+ 
+ div.fifth{
+	position : relative;
+	top : 0px;
+	height : 300px;
+	display : flex;
+	background-color:#ebebe0;
+	
+} 
+div.fifth h3{
+	position : absolute;
+	left : 250px;
+	border-bottom : 1px dotted #000;
+}
+
+div.imggalary{
+	position : relative;
+	left : 170px;
+	top : 50px;
+	width : 150px;
+	height : 200px;
+	margin : 5px;
+	margin-bottom : 20px;
+
+}
+
+div.imggalary img {
+	position :absolute;
+	width : 130px;
+	height : 100px;
+	}
+
+div.container h4{
+	position : absolute;
+	top : 110px;
+	left : 70px;
+	border-bottom : 1px dotted #000;
+	width : 130px;
+	font-size : 12px;
+	font-style : bold;
+}
+
+div.container p{
+	position : absolute;
+	top : 130px;
+	left : 70px;
+	font-size : 12px;
+	word-break : break-all;
+	text-align : center;
+}
+
+div.sixth{
+	position : relative;
+	top : 0px;
+	height : 300px;
+	display : flex;
+	background-color:#ebebe0;
+	
+}
+
+div.s1{
+	position : absolute;
+	left : 250px;
+	height : 250px;
+	width : 300px;
+	
+}
+
+div.s1 h3{
+	width :300px;
+	border-bottom : 1px dotted #000;
+	text-align : left;
+}
+
+div.s1 p{
+	position : absolute;
+	padding : 0px 10px;
+	text-align : justify;
+	font-size : 14px;
+	word-break : keep-all;
+	overflow : hidden;
+
+}
+
+div.s2{
+	position : absolute;
+	top : 30px;
+	left : 600px;
+	height : 300px;
+	width : 270px;
+	
+}
+
+div.s2 img{
+	
+	height : 65px;
+	width : 65px;
+	float : left;
+}
+
+div.s2 p{
+	position : absolute;
+	left : 70px;
+	float : right;
+	text-align : justify;
+	font-size : 14px;
+}
+
+
+div.s21{
+	
+	position : absolute;
+	height : 150px;
+	width : 270px;
+}
+
+
+div.s22{
+	
+	position : absolute;
+	top : 150px;
+	height : 150px;
+	width : 270px;
+
+}
+
+ div.seventh{
+	position : relative;
+	top : 0px;
+	height : 250px;
+	display : flex;
+	background-color:grey;
+ }
+ 
+ div.seventh h3{
+		border-bottom : 1px dotted black;
+		
+ }
+ 
+ div.sv1{
+	position : absolute;
+	left : 250px;
+	width  : 150px;
+	height : 150px;
+	margin : 10px;
+	padding : 10px;
+	font-size : 14px;
+	text-align : left;
+ }
+ 
+ div.sv2{
+	position : absolute;
+	left : 450px;
+	width  : 150px;
+	height : 150px;
+	margin : 10px;
+	padding : 10px;
+ }
+ 
+ div.sv2 ul li{
+	list-style-type : none;
+	border-bottom : 1px dotted #000;
+	
+	font-size : 14px;
+	
+}
+
+div.sv2 ul li img{
+	position : absolute;
+	left : 0px;
+	width : 15px;
+	height : 15px;
+}
+ 
+ 
+ 
+ div.sv3{
+	position : absolute;
+	left : 650px;
+	width  : 200px;
+	height : 150px;
+	margin : 10px;
+	padding : 10px;
+ }
+ 
+ div.sv3 ul li{
+	list-style-type : none;
+	margin : 5px;
+	font-size : 15px;
+}
+
+div.sv3 ul li img{
+	position : absolute;
+	left : 0px;
+	width : 40px;
+	height : 35px;
+}
+
+
+div.eighth{
+	position : relative;
+	top : 0px;
+	height : 50px;
+    background-color: #333;
+	bottom : 0;
+}
+div.eighth p{
+	position : absolute;
+	left : 260px;
+	font-size : 12px;
+	color : #fff;
+	 clear: left;
+}
+
+div.eighth ul li {
+	list-style-type:none;
+	margin:5px;
+	float:right;
+	
+}
+
+div.eighth ul li img{
+	
+	display:inline;
+	display:image;
+	width : 20px;
+	height : 20px;
+	}
