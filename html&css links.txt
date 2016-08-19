@@ -1,0 +1,7 @@
+1. http://www.lingulo.com/tutorials/css/how-to-build-a-html5-website-from-scratch
+2. http://www.lingulo.com/tutorials/css/how-to-build-a-html5-website-from-scratch-part-2
+
+3. http://www.htmlquick.com/tutorials/organizing-website.html
+
+4. https://github.com/necolas/idiomatic-html
+5. https://github.com/necolas/idiomatic-css
