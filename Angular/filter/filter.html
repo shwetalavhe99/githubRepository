@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+   <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+    <script src="script.js"></script>
+    
+  </head>
+
+  <body ng-app = "bindExample">
+    
+    <div ng-controller = "myController">
+      
+        
+        <label>Search :<input ng-model = "searchText"></label>
+        
+        <table id = "searchTextResults" border = "2">
+          <tr><th>Name</th><th>Phone</th><th>name</th><th>Price</th></tr>
+          
+          <tr ng-repeat = "f in friends  | filter : searchText">
+            <td>{{f.name | uppercase}}</td>
+            <td>{{f.phone}}</td>
+			<td>{{f.name | lowercase}}</td>
+			<td>{{f.price | currency}}</td>
+          </tr>
+		
+        </table>
+		
+		  <ul>
+			<li ng-repeat = "f in friends  | orderBy : 'name'">
+				{{f.name+ " "+f.phone}}
+			</li>
+		</ul>
+      
+      
+    </div>
+  </body>
+
+</html>
