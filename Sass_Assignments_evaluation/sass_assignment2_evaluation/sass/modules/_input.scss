@@ -1,0 +1,43 @@
+@mixin bgcolor($bgc){
+    
+    background-color: $bgc;
+}
+
+@mixin bordr($w,$sty,$clr){
+    border-width: $w;
+    border-style: $sty;
+    border-color: $clr;
+    
+}
+
+.NormalInput{
+
+@include bgcolor(#ffffff);
+@include bordr(1px,solid,#ccc);
+width:300px;
+height:36px;
+font-style:SegoUI;
+font-size:13px;
+padding-left:10px;
+color:#666666;
+border-radius: 1px;
+}
+
+
+
+.Disabled{
+@include bgcolor(#eeeeee);
+@include bordr(1px,solid,#ccc);
+background-color:#eeeeee;
+color:#999999;
+cursor: not-allowed;
+border-radius: 2px;
+}
+
+
+.error{
+@include bgcolor(#fde7e1);
+@include bordr(1px,solid,#f44336);
+color:#f44336;
+
+}
