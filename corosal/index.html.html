@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<style>
+			.wrapper{
+				
+				margin-top: 50px;
+			}
+			#leftarrow{
+				margin-left: 45px;
+			}
+			#leftarrow,#rightarrow{
+				margin-top: 200px;
+			}
+			#leftarrow,#rightarrow,.slide{
+				float: left;
+			}
+			.slide,#image1,#image2,#image3,#image4,#image5{
+				height: 500px;
+				width: 700px;
+				border-radius:50%;
+				
+			}
+			.wrapper:after{
+				clear: both;
+				content: "";
+				display: block;
+			}
+			svg{
+				padding-left: 410px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="wrapper clearfix">
+			<div id="leftarrow">
+				<img src="leftarrow.png"/>
+			</div>
+				<div class="slide">
+					<div id="slide1"><img id="image1" src="download.jpg"></div>
+					<div id="slide2"><img id="image2" src="download1.jpeg"></div>
+					<div id="slide3"><img id="image3" src="download3.jpg"></div>
+					<div id="slide4"><img id="image4" src="download2.jpg"></div>
+					<div id="slide4"><img id="image5" src="download4.jpg"></div>
+				</div>
+			<div id="rightarrow">
+				<img src="rightarrow.png"/>
+			</div>
+		</div>
+		<svg width="150" height="100">
+			
+				<circle class="circle1" cx="50" cy="50" r="5" stroke="black" stroke-width="1" fill="lightgrey" />
+				<circle class="circle2" cx="65" cy="50" r="5" stroke="black" stroke-width="1" fill="lightgrey" />
+				<circle class="circle3" cx="80" cy="50" r="5" stroke="black" stroke-width="1" fill="lightgrey" />
+				<circle class="circle4" cx="95" cy="50" r="5" stroke="black" stroke-width="1" fill="lightgrey" />
+				<circle class="circle5" cx="110" cy="50" r="5" stroke="black" stroke-width="1" fill="lightgrey" />
+			
+			</svg>
+		<script>
+			//console.log($(".circle1").attr("fill","blue"));
+			//console.log($(".circle1").attr("fill"));
+			var circles=$("svg").children();
+			var current=".slide1";
+			var locationofimage=0;
+			var noofdivs=$(".slide").children().length;
+			var n=$(".slide").children();
+			$(".circle1").attr("fill","black");
+			for(i=1;i<noofdivs;i++)
+			{
+				$(n[i]).hide();
+				console.log(n[i]);
+			}
+			$("#rightarrow").click(function(){
+				$(n[locationofimage]).hide();
+				$(circles[locationofimage]).attr("fill","lightgrey");
+				
+				if(locationofimage==(noofdivs-1)){
+					locationofimage=0;
+					$(n[locationofimage]).show();
+					$(circles[locationofimage]).attr("fill","black");
+				}
+				else{
+				$(n[++locationofimage]).show();
+				$(circles[locationofimage]).attr("fill","black");
+				}
+				
+			});
+			$("#leftarrow").click(function(){
+				$(n[locationofimage]).hide();
+				$(circles[locationofimage]).attr("fill","lightgrey");
+				
+				if(locationofimage==0){
+					locationofimage=(noofdivs-1);
+					//console.log(locationofimage);
+					$(n[locationofimage]).show();
+					$(circles[locationofimage]).attr("fill","black");
+				}
+				else{
+				$(n[--locationofimage]).show();
+				$(circles[locationofimage]).attr("fill","black");
+				}
+			});
+			
+			
+		</script>
+	</body>
+</html>
