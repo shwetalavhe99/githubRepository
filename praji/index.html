@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script>
+angular.module('ngToggle', [])
+    .controller('AppCtrl',['$scope', function($scope){
+        $scope.custom = true;
+		$scope.cust=true;
+}]);
+</script>
+</head>
+<body ng-app="ngToggle">
+    <div ng-controller="AppCtrl">
+        <button ng-click="custom=!custom">Custom</button>
+		<button ng-click="cust=!cust">Cust</button>
+		<br>
+		<div>
+        <span ng-hide="custom">
+            <img src="images\menu1.jpg">
+        </span>
+        <span ng-show="custom"></span>
+		
+		
+        <span ng-hide="cust">
+            <img src="images\menu2.jpg">
+        </span>
+        <span ng-show="cust"></span>
+		</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body ng-app="">
+
+img1: <input type="checkbox" ng-model="img1" ng-init="img1 = false">
+img2: <input type="checkbox" ng-model="img2" ng-init="img2 = false">
+img3: <input type="checkbox" ng-model="img3" ng-init="img3 = false">
+
+<div ng-if="img1">
+<img src="images\menu1.jpg">
+</div>
+
+<div ng-if="img2">
+<img src="images\menu2.jpg">
+</div>
+
+<div ng-if="img3">
+<img src="images\menu3.jpg">
+</div>
+
+</body>
+</html>
